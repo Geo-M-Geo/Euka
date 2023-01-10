@@ -5,23 +5,19 @@ import sunflower from '../assets/plants/sunflower.jpg';
 
 export const plants = [
     {
-        "id": "2545de",
-        "title": "Cactus",
-        "cover": {Cactus}
+        title: "Cactus",
+        picture: Cactus
     },
     {
-        "id": "2545de",
-        "title": "Succulent",
-        "cover": {Succulent}
+        title: "Succulent",
+        picture: Succulent
     },
     {
-        "id": "2545de",
-        "title": "Oreilles d'elephant",
-        "cover": {elephant}
+        title: "Oreilles d'elephant",
+        picture: elephant
     },
     {
-        "id": "2545de",
-        "title": "Tournesol",
-        "cover": {sunflower}
+        title: "Tournesol",
+        picture: sunflower
     }
 ]

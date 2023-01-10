@@ -1,0 +1,37 @@
+.carousel-container{
+    position: relative;
+    text-align: center;
+    display: inline-block;
+    padding: 20px 40px;
+    &__image{
+        display: block;
+        object-fit: cover;
+        border-radius: 25px;
+        width: 900px;
+        height: 500px;
+    }
+    &__previous-picture{
+        position: absolute;
+        left: 5%;
+        top: 45%;
+        height: 70px;
+        cursor: pointer;
+    }
+    &__next-picture{
+        position: absolute;
+        right : 5%;
+        top: 45%;
+        height: 70px;
+        cursor: pointer;
+        }
+    &__number{
+        position: absolute;
+        right : 50%;
+        bottom: 5%;
+        font-size: 18px;
+        font-weight: 800;
+        @media only screen and (max-width: 700px) {
+            font-size: 25px;
+        };
+    }
+}
