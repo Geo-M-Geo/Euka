@@ -1,0 +1,25 @@
+/* CSS of the Banner function. The main container 
+is set on position relative so the text position will be absolute 
+to it and position with the top and right settings*/
+.banner-container{
+    position: relative;
+    text-align: center;
+    color: white;
+    display: inline-block;
+    padding: 0 40px;
+    &__image{
+    display: block;
+    object-fit: cover;
+    border-radius: 25px;
+    height: 300px;
+}
+&__title{
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    top: 10;
+            @media only screen and (max-width: 700px) {
+        font-size: 30px;
+    };
+}
+}
