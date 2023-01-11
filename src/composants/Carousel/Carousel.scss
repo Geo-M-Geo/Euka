@@ -1,15 +1,20 @@
+/* CSS of the carousel's function. The main container is set to relative so the childs elements can be absolute and overlap each other.*/
 .carousel-container{
     position: relative;
     text-align: center;
     display: inline-block;
     padding: 20px 40px;
+    width: 900px;
+    margin: auto;
+    /*CSS of the image. display block is use so the picture take all the element space to be display.*/
     &__image{
         display: block;
         object-fit: cover;
         border-radius: 25px;
-        width: 900px;
         height: 500px;
+        width: 900px;
     }
+    /*The  previous and next button are se on absolute with the position to display it onto the image*/
     &__previous-picture{
         position: absolute;
         left: 5%;

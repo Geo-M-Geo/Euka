@@ -1,0 +1,13 @@
+/*The CSS of the function footer set the height of the element and with flexbox it display the text in the center of the element.*/
+.footer-container{
+    background-color: black;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    &__text{
+        color: white;
+        font-size: 20px;
+        font-weight: 500;
+        margin: auto;
+    }
+}

@@ -1,0 +1,16 @@
+/*The CSS of the App's function contain the settings for body of the website */
+html, 
+body {
+  margin: 0;
+  padding: 0;
+  // display:block;
+  // box-sizing: border-box;
+  // position: relative;
+  min-height: 100vh;
+}
+.main-container{
+  display: flex;
+  flex-direction: column;
+  min-height: 80vh;
+}
+
